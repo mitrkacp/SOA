@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+
+option java_package = "pl.edu.agh.soa.model";
+option java_outer_classname = "VendorProtobuf";
+
+message Vendor{
+    int32 id = 1;
+    string firstName = 2;
+    string lastName = 3;
+}
